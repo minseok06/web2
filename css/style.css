@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* 스타일시트 주석 */
+*{    /* html문서 내의 전체 태그에 스타일을 적용*/
+    margin: 0 auto;/*좌우 바깥쪽 여백을 자동 할당하여 중앙정렬로 만듬*/
+    padding: 0;/* 안쪽 여백을 없앰*/
+    list-style: none; /*html목록태그(ul,ol,li)를 사용한 부분에 목록스타일 나타나지 않도록 */
+    font-family: "맑은 고딕";
+    color: #333333; /* 컬러 가이드: 기본 텍스트의 색 */
+}
+body{
+    width: 1000px; /* 와이어프레임 너비 */
+    height: 650px; /* 와이어프레임 B+C+D 높이*/
+    background-color: #ffffff; /* 컬러 가이드: 배경색 */
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+/* 레이아웃의 각 크기를 정하고 박스요소들의 정렬(플로팅)을 맞추기 위한 작업*/
+
+header{
+    float: left;
+}
+.top{
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+
+.logo{ /* 로고의 위치와 크기 */
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu{
+    float: left;
+}
+
+.imgslide{
+    float: right;
+    width: 800px;
+    height: 350px;
+}
+
+.contents{
+    float: right;
+    width: 800px;
+    height: 200px;
+}
+
+.notice{
+    float: left;
+    width: 300px;
+}
+
+.gallay{
+    float: left;
+    width: 300px;
+}
+
+.shortcut{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.btlog{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.copy{
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+.famliystie{
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+footer{
+    float: right;
+}
+.bottom{
+    float: right;
+    width: 800px;
+    height: 100px;      
+}
